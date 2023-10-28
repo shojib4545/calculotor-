@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+.card{
+    margin: 0 auto;
+    max-width: 350px;
+    text-align: center;
+    margin-top: 10px;
+    box-shadow: 0 4px 8px 0 black;
+    transition: 0.3s;
+    font-size: 0;
+}
+
+.card:hover{
+    box-shadow: 0 16px 32px 0 black;
+}
+
+.calc-dead #result{
+    width: 500px; 
+    height: 250px;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: right;
+    padding: 0 5px;
+    letter-spacing: 2px;
+}
+
+.btn{
+    width: 87px;
+    height: 70px;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: rgb(5, 55, 79);
+    color: white;
+
+}
+
+.btn-style{
+    background-color: rgb(25, 125, 218);
+}
+
+.btn:hover{
+    background-color: rgb(180, 20, 20);
+}
